@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+
+  padding: 0;
+  margin: 0;
+
+  cursor: none;
+}
+
+.circle {
+  position: absolute;
+  z-index: 2;
+  width: 122px;
+  height: 105px;
+}
+
+.glass {
+  width: 200px;
+  height: 200px;
+
+  position: relative;
+  left: -75px;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.morseCodeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 2px;
+}
+
+.codeElement {
+  min-width: 3rem;
+  height: fit-content;
+  width: fit-content;
+
+  font-size: 2.5rem;
+
+  z-index: 1;
+
+  flex-grow: 1;
+  margin: 0;
+}

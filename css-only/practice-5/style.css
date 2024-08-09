@@ -1,0 +1,12 @@
+.trapezoid {
+    width: 0;
+    border-bottom: 100px solid #62306D;
+    /* color and height of trapezoid */
+    border-left: 50px solid transparent;
+    /* left side width */
+    border-right: 50px solid transparent;
+    /* right side width */
+    height: 0;
+    border-top: 50px solid transparent;
+    /* top side width */
+}

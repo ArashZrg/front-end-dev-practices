@@ -1,0 +1,57 @@
+html {
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    width: 40rem;
+
+    margin-inline: 2rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.item {
+    width: 8rem;
+    height: 8rem;
+}
+
+.item-blue {
+    background-color: blue;
+}
+
+.item-pink {
+    background-color: pink;
+}
+
+.item-red {
+    background-color: red;
+}
+
+@media screen and (max-width:600px) {
+    .item {
+        width: 4rem;
+        height: 4rem;
+    }
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #024817;
+    width: 400px;
+    height: 400px;
+    margin: 5rem auto;
+    position: relative;
+}
+
+:root {
+    --bg-color: #024817;
+    --color-1: #48Bf7d;
+    --color-2: #176c36;
+    --container-size: 400px;
+    --circle-size-large: 3rem;
+    --circle-size-small: 2rem;
+    --circle-offset: 8.5rem;
+}
+
+.color-1 {
+    background-color: #48Bf7d;
+}
+
+.color-2 {
+    background-color: #176c36;
+}
+
+.center-circle {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2.5rem;
+}
+
+.circle {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2.5rem;
+}
+
+.cir-2 {
+    right: 8.5rem;
+    top: 8.5rem;
+}
+
+.cir-3 {
+    left: 8.5rem;
+    top: 8.5rem;
+}
+
+.cir-4 {
+    left: 8.5rem;
+    bottom: 8.5rem;
+}
+
+.cir-5 {
+    right: 8.5rem;
+    bottom: 8.5rem;
+}
+
+.cir-6 {
+    top: 7.5rem;
+    left: 11.5rem;
+}
+
+.cir-7 {
+    bottom: 7.5rem;
+    left: 11.5rem;
+}
+
+.cir-8 {
+    bottom: 11.5rem;
+    right: 7.5rem;
+}
+
+.cir-9 {
+    bottom: 11.5rem;
+    left: 7.5rem;
+}

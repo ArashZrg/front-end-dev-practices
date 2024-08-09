@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "firstName": "jeff",
+      "lastName": "bezos",
+      "details": {
+        "mobile": "09351651897",
+        "card_no": "1111-2222-3434-0757"
+      },
+      "is_secure": false
+    },
+    {
+      "id": 2,
+      "firstName": "elon",
+      "lastName": "musk",
+      "details": {
+        "mobile": "09926761066",
+        "card_no": "5555-6666-9999-2323"
+      },
+      "is_secure": false
+    },
+    {
+      "id": 3,
+      "firstName": "mark",
+      "lastName": "zuckerberg",
+      "details": {
+        "mobile": "09122223344",
+        "card_no": "9988-6633-8855-6548"
+      },
+      "is_secure": false
+    }
+  ]

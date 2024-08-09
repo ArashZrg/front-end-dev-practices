@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container-total {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-inline: 1rem;
+}
+
+.header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.header-top .header-right {
+    display: flex;
+    padding: 20px;
+}
+
+.header-top .header-right img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.header-top .header-right .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 19px;
+}
+
+.header-top .header-right .list .item {
+    list-style: none;
+    margin: 10px;
+    color: gray;
+}
+
+.header-top .header-left {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+
+.header-top .header-left .signup {
+    margin: 10px;
+    color: blue;
+}
+
+
+.header-top .header-left .login {
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.header-bottom .header-left {
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.header-bottom .header-right {
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px 20px 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-bottom .header-right h1 {
+    color: blue;
+}
+
+
+.header-bottom .header-right .dis-short {
+    color: blue;
+    font-weight: bold;
+}
+
+.header-bottom .header-right .dis-long {
+    padding-top: 20px;
+    line-height: 2rem;
+    color: gray;
+}
+
+.host {
+    background: linear-gradient(to bottom, rgba(214, 238, 255, 0) 0, #d6eeff);
+}
+
+.host .host-title {
+    text-align: center;
+    padding: 100px;
+}
+
+.host .host-list {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.host .host-list .host-list-item {
+    padding: 2rem;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.host .host-list .host-list-item h2 {
+    width: 150px;
+    position: absolute;
+    color: white;
+    background-color: blue;
+    border-radius: 2rem;
+    padding: 10px;
+    text-align: center;
+    top: -2rem;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.partitions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.partitions .parts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partitions .parts1 .part-left {
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.partitions .parts1 .part-right {
+    width: 40%;
+}
+
+.partitions .parts1 .part-right h1 {
+    color: blue;
+    padding: 20px;
+}
+
+
+.partitions .parts1 .part-right p {
+    color: gray;
+    line-height: 2rem;
+}
+
+.partitions .parts2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partitions .parts2 .part-left {
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.partitions .parts2 .part-right {
+    width: 40%;
+}
+
+.partitions .parts2 .part-right h1 {
+    color: blue;
+    padding: 20px;
+}
+
+
+.partitions .parts2 .part-right p {
+    color: gray;
+    line-height: 2rem;
+}
+
+.partitions .parts3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partitions .parts3 .part-left {
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.partitions .parts3 .part-right {
+    width: 40%;
+}
+
+.partitions .parts3 .part-right h1 {
+    color: blue;
+    padding: 20px;
+}
+
+
+.partitions .parts3 .part-right p {
+    color: gray;
+    line-height: 2rem;
+}
+
+.partitions .parts4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partitions .parts4 .part-left {
+    width: 60%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.partitions .parts4 .part-right {
+    width: 40%;
+}
+
+.partitions .parts4 .part-right h1 {
+    color: blue;
+    padding: 20px;
+}
+
+
+.partitions .parts4 .part-right p {
+    color: gray;
+    line-height: 2rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.social-media .icons img{
+    padding: 0 5px;
+}
+
+
+.social-media p{
+    padding-bottom:10px ;
+}
+
+/*.social-media .line{*/
+/*    width: 100%;*/
+/*    border-bottom: 1px solid black ;*/
+/*    opacity: 0.6;*/
+/*    padding-bottom : 10rem;*/
+/*}*/

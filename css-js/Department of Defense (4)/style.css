@@ -1,0 +1,338 @@
+* {
+    color: hsla(360, 100%, 100%, 1);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+
+body {
+    background-color: hsl(222, 36%, 5%);
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .body-container {
+        margin: 2rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .top-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 2.5rem;
+    }
+
+    #lt {
+        background-color: #212121;
+        width: 20%;
+        height: 18rem;
+        border-radius: 2.5rem;
+    }
+
+    #m {
+        width: 20%;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 2.5rem;
+
+    }
+
+    #mt {
+        width: 100%;
+        height: 50%;
+        background-color: #212121;
+        border-radius: 2.5rem;
+    }
+
+    #mb {
+
+        width: 100%;
+        height: 50%;
+        background-color: #212121;
+
+        border-radius: 2.5rem;
+    }
+
+    #rt {
+        background-color: #212121;
+        width: 60%;
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem;
+    }
+
+    #rm {
+        background-color: #2e2d2d;
+        width: 50%;
+        height: 30%;
+        border-radius: 2.5rem;
+    }
+
+    .top-middle-section {
+        margin-top: 1rem;
+        background-color: #212121;
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 1rem;
+        border-radius: 2.5rem;
+    }
+
+    .m {
+        background-color: #2e2d2d;
+        width: 10%;
+        height: 80%;
+        border-radius: 2.5rem;
+    }
+
+
+    .grid-layout {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 12fr));
+        grid-gap: 1rem;
+    }
+
+    .grid-layout div {
+        background-color: #2e2d2d;
+        border-radius: 2.5rem;
+        height: 12rem;
+    }
+
+    .header div {
+        position: relative;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .header div img {
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 18%;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        top: 3.3rem;
+        left: 0.05rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        background-color: #2e2d2d;
+    }
+
+    #dropdown-checkbox {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+
+    .dropdown-content span {
+        display: block;
+        cursor: pointer;
+        padding-top: 8px;
+        padding-left: 3px;
+
+    }
+
+    #dropdown-checkbox:checked+.dropdown-content {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .body-container {
+        margin: 2rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .top-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 2.5rem;
+    }
+
+    #lt {
+        background-color: #212121;
+        width: 100%;
+        height: 18rem;
+        border-radius: 2.5rem;
+    }
+
+    #m {
+        width: 100%;
+        height: 16rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 1rem;
+        border-radius: 2.5rem;
+    }
+
+    #mt {
+        width: 16rem;
+        height: 100%;
+        background-color: #212121;
+        border-radius: 2.5rem;
+    }
+
+    #mb {
+
+        width: 16rem;
+        height: 100%;
+        background-color: #212121;
+
+        border-radius: 2.5rem;
+    }
+
+    #rt {
+        background-color: #212121;
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2.5rem;
+    }
+
+    #rm {
+        background-color: #2e2d2d;
+        width: 50%;
+        height: 30%;
+        border-radius: 2.5rem;
+    }
+
+    .top-middle-section {
+        margin-top: 1rem;
+        background-color: #212121;
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 2.5rem;
+    }
+
+    .m {
+        background-color: #2e2d2d;
+        width: 100%;
+        height: 80%;
+        border-radius: 2.5rem;
+    }
+
+
+    .grid-layout {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+
+    .grid-layout div {
+        background-color: #2e2d2d;
+        border-radius: 2.5rem;
+        height: 12rem;
+
+    }
+
+
+    .header div {
+        position: relative;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .header div img {
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 18%;
+    }
+
+
+    .dropdown-content {
+        position: absolute;
+        top: 3.3rem;
+        left: 0.05rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        background-color: #2e2d2d;
+
+    }
+
+    #dropdown-checkbox {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+
+    .dropdown-content span {
+        display: block;
+        cursor: pointer;
+        padding-top: 8px;
+        padding-left: 3px;
+
+    }
+
+    #dropdown-checkbox:checked+.dropdown-content {
+        display: block;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "copy",
+  "version": "1.0.0",
+  "description": "Goal: gets shallow and deep copy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

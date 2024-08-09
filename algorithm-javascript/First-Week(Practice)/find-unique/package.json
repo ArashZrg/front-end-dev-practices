@@ -1,0 +1,17 @@
+{
+  "name": "find-unique-character",
+  "version": "1.0.0",
+  "description": "Goal: find unique character in a list like: [1, 1, 1, 12, 1, 1]",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

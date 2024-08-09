@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-color {
+
+    background-color: #DB6042;
+}
+
+.second-color {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #DBBD42;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_design {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.flex-grow {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    max-height: 150px;
+
+}

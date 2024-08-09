@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fcddeb;
+    width: 400px;
+    height: 400px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+<<<<<<< HEAD
+.circle {
+=======
+
+.circle-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #8b0051;
+>>>>>>> c33aefdec324defe55639c613a7883af866bea16
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+<<<<<<< HEAD
+.circle-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #8b0051;
+}
+
+.circle-2 {
+    width: 150px;
+    height: 150px;
+    background-color: #fcddeb;
+=======
+.circle-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fcddeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> c33aefdec324defe55639c613a7883af866bea16
+}
+
+.circle-3 {
+    width: 100px;
+    height: 100px;
+<<<<<<< HEAD
+    background-color: #8b0051;
+}
+
+.circle-4 {
+    width: 50px;
+    height: 50px;
+    background-color: #f180b6;
+}
+
+=======
+    border-radius: 50%;
+    background-color: #8b0051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f180b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+>>>>>>> c33aefdec324defe55639c613a7883af866bea16
+.circle-5 {
+    background-color: #8b0051;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.arrow-1 {
+    position: absolute;
+    top: 4.9rem;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: 6rem solid #8b0051;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}
+
+.arrow-2 {
+    position: absolute;
+    bottom: 4.9rem;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-bottom: 6rem solid #8b0051;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.arrow-3 {
+    position: absolute;
+    left: 4.9rem;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-left: 6rem solid #8b0051;
+    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 3rem;
+}
+
+
+.arrow-3 {
+    position: absolute;
+    right: 4.9rem;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-right: 6rem solid #8b0051;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
