@@ -4,30 +4,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>فرم کوئرا</title>
+    <title>فرم ثبت‌نام</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="container">
-      <h2>ثبت‌ نام در کوئرا تسک منیجر</h2>
+      <h2>فرم ثبت‌نام</h2>
       <form>
-        <label> نام کامل</label>
-        <input type="text" />
-        <p class="nameError"></p>
+        <label>نام کاربری</label>
+        <input type="text" id="username" />
+        <p class="usernameError"></p>
         <label> ایمیل</label>
-        <input type="email" />
+        <input type="email" id="email" />
         <p class="emailError"></p>
         <label>رمز عبور</label>
-        <input type="password" />
+        <input type="password" id="password" />
         <p class="passwordError"></p>
-        <div>
-          <input type="checkbox" />
-          <label>قوانین و مقررات را می‌پذیرم.</label>
-        </div>
-        <input type="submit" value="ثبت نام" />
+        <button>ثبت نام</button>
       </form>
     </main>
   </body>
 
-  <script src="script.js"></script>
+  <script src="./main.js"></script>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <main>
+      <form class="form" cy-data="form" id="new-task-form">
+        <input
+          id="new-task-input"
+          cy-data="form-input"
+          class="form__input"
+          placeholder="New Todo..."
+          type="text"
+        />
+        <input
+          id="new-task-submit"
+          cy-data="form-submit"
+          class="form__button"
+          type="submit"
+          value="Add New Task"
+        />
+      </form>
+
+      <div id="errorContainer" class="error">
+        <!-- Error for empty input -->
+        <p>New todo should not be empty!</p>
+      </div>
+
+      <ul id="todosContainer" cy-data="todosContainer" class="todos">
+        <!-- Todos items: todo -->
+      </ul>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
